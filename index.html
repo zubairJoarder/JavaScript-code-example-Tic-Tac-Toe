@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JavaScript Technical Test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="js/vendor/jquery-1.10.2.min.js"></script>
+		<script src="js/TicTacToe.class.js"></script>
+		<script src="js/main.js"></script>
+    </head>
+    <body>
+        
+		<div style="background-color:orange;text-align:center;padding:8px">
+			<h2 style="color:white">JavaScript Technical Test: Tic Tac Toe</h2>
+			<h3 style="color:white">Candidate: Zubair Joarder</h3>
+		</div>
+
+		<div style="background-color:#f5f5f5;text-align:center;padding:8px;height:700px">
+		<!--	<h2 style="color:white">Tic Tac Toe</h2>
+			<h3 style="color:white">Candidate: Zubair Joarder</h3>
+			
+			-->
+			<div style="background-color:#D8D8D8;text-align:center;padding:8px;height:70%;width:70%;margin:0 auto;padding-top:30px">
+			
+				<b>Player one: x</b><br/>
+				<b>Player two: o</b><br/><br/>
+				
+				<span id='whosTurn' player='x'><b>Player one's turn</b></span><br/><br/><br/>
+				
+				<table border='1' align='center' cellpadding="30">
+					<tr>
+						<td><input type="checkbox" class='tickTackToeCell' rowNum=0 colNum=0 /><span style='display:none'></span></td>
+						<td><input type="checkbox" class='tickTackToeCell' rowNum=0 colNum=1 /><span style='display:none'></span></td>
+						<td><input type="checkbox" class='tickTackToeCell' rowNum=0 colNum=2 /><span style='display:none'></span></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" class='tickTackToeCell' rowNum=1 colNum=0 /><span style='display:none'></span></td>
+						<td><input type="checkbox" class='tickTackToeCell' rowNum=1 colNum=1 /><span style='display:none'></span></td>
+						<td><input type="checkbox" class='tickTackToeCell' rowNum=1 colNum=2 /><span style='display:none'></span></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" class='tickTackToeCell' rowNum=2 colNum=0 /><span style='display:none'>x</span></td>
+						<td><input type="checkbox" class='tickTackToeCell' rowNum=2 colNum=1 /><span style='display:none'>x</span></td>
+						<td><input type="checkbox" class='tickTackToeCell' rowNum=2 colNum=2 /><span style='display:none'>x</span></td>
+					</tr>
+					
+				
+				</table>
+				</b><br/><br/>
+				<input type='button' id='reloadTicTacToe' value='Reload Game' />
+			</div>
+			
+		</div>		
+    </body>
+</html>
